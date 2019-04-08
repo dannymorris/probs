@@ -1,11 +1,14 @@
 Package: probs
 Type: Package
-Title: What the Package Does (Title Case)
+Title: R Functions for Probability Calculations
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: person("Danny", "Morris", email = "usc00@hotmail.com", role = c("aut", "cre"))
+License: MIT + file LICENSE
+Description: Function wrappers for intuitively estimating probabilities, e.g.
+    binomial probability calculations.
 Encoding: UTF-8
 LazyData: true
+Imports: dplyr,
+    tibble,
+    purrr
+RoxygenNote: 6.1.1
